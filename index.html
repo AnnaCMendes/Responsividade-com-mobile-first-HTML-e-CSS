@@ -56,8 +56,12 @@
 
             <div class="container">
                 <a href="#"><img src="img/Favoritos.svg"  alt="Meus favoritos" class="container__imagem container__imagem-coracao"></a>
-                <a href="#"><img src="img/Sacola.svg" alt="Carrinho de compras" class="container__imagem"></a>
-                <a href="#"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+                <a href="#" class="container__link"><img src="img/Sacola.svg" alt="Carrinho de compras" class="container__imagem">
+                <p class="container__texto">Minha Sacola</p>
+                </a>
+                <a href="#"class="container__link"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu Perfil</p>
+                </a>
             </div>
         </header>
         <section class="banner">
@@ -68,6 +72,7 @@
         <section class="carrossel">
             <h2 class="carrossel__titulo">ÚLTIMOS LANÇAMENTOS</h2>
             <!-- Slider main container -->
+            <div class="carrossel__container">
             <div class="swiper">
             <!-- If we need pagination -->
               <div class="swiper-pagination"></div>
@@ -110,9 +115,11 @@
                     <a href="#" class="botoes__ancora">Saiba maais</a>
                 </div>
             </div>
+        </div>
             <section class="carrossel">
                 <h2 class="carrossel__titulo">MAIS VENDIDOS</h2>
                 <!-- Slider main container -->
+                <div class="carrossel__container">
                 <div class="swiper">
                 <!-- If we need pagination -->
                   <div class="swiper-pagination"></div>
@@ -155,6 +162,7 @@
                         <a href="#" class="botoes__ancora">Saiba maais</a>
                     </div>
                 </div>
+            </div>
             </section>    
             <section class="topicos">
                 <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
@@ -191,7 +199,7 @@
                         <img src="img/Caelum.svg" alt="Logo"><a href="#" class="lista-rodape__link">Carolina</a>
                     </li>
                 </ul>
-                
+
                 <ul class="lista-rodape">
                     <li class="lista-rodape__titulo">Educação Online</li>
                     <li class="lista-rodape__item">
